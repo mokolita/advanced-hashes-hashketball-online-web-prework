@@ -177,7 +177,7 @@ def big_shoe_rebounds
               end
             end
           end
-        return hash[location][attribute][player_name][:rebounds]
+        return game_hash[location][attribute][player_name][:rebounds]
       end
     end
   end
