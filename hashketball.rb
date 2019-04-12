@@ -170,7 +170,7 @@ def big_shoe_rebounds
              #binding.pry
               if stat == :shoe
                 if value > shoe_size
-                 binding.pry
+                 #binding.pry
                   shoe_size = value  
                   player_name = player
                 end
